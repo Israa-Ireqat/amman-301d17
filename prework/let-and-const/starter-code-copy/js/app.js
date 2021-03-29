@@ -37,7 +37,7 @@ function displayPics(){
   }
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
   // PUT YOUR RESPONSE IN THIS COMMENT
-  //Using let to define a variable makes the definition of it not global but  in the place where it has been defined , so outside the function it will be undefined.Using var makes the variable global because of the hoisting so it will not make any error.
+ 
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
